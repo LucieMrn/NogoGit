@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy"
+    android:scrollbarSize="30dp"
+    tools:context=".Planning">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/basic"
+        android:text="@string/title"
+
+        android:textColor="@color/white"
+        android:textSize="96sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="146dp"
+        android:fontFamily="@font/basic"
+        android:text="@string/subtitle_planning"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageflechedroiteplanning"
+        android:layout_width="98dp"
+        android:layout_height="95dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        app:srcCompat="@drawable/fleche_droite" />
+
+    <ImageView
+        android:id="@+id/imageflechegaucheplanning"
+        android:layout_width="100dp"
+        android:layout_height="96dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        app:srcCompat="@drawable/fleche_gauche" />
+
+    <ImageView
+        android:id="@+id/imageplanning"
+        android:layout_width="248dp"
+        android:layout_height="253dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/planning" />
+
+
+</RelativeLayout>

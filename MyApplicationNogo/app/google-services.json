@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1068416332893",
+    "project_id": "myapplicationnogo",
+    "storage_bucket": "myapplicationnogo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068416332893:android:65f89d58f494e52c0549b4",
+        "android_client_info": {
+          "package_name": "com.example.myapplicationnogo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068416332893-htj2qps16ofdjadtjrq1q511q8f1a4c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-113N9nK8U1CeVDe1Y23cOv4VKY_b1tc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068416332893-htj2qps16ofdjadtjrq1q511q8f1a4c8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

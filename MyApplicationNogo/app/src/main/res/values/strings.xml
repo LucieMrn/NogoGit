@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyApplicationNogo</string>
+    <string name="title">Nogo</string>
+    <string name="subtitle_frigo">Dans mon frigo</string>
+    <string name="subtitle_recettes">Mes Recettes</string>
+    <string name="button_add">Ajouter</string>
+    <string name="subtitle_planning">Planning des repas de la semaine</string>
+    <string name="subtitle_course">Ma liste de courses</string>
+</resources>
